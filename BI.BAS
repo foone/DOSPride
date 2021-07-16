@@ -1,14 +1,14 @@
-Screen 9
-Palette 1, 12
-Palette 2, 13
-Palette 3, 1
-Palette 0, 0
-
-For i = 1 To 3
-    Line (0, 50 * (i - 1))-(319, (50 * i) - 1), i, BF
-Next
-Locate 15, 7
-Print "INTERNATIONAL BISEXUALITY DAY"
-Locate 16, 15
-Print "13TH SEPTEMBER";
-Sleep
+SCREEN 13
+PALETTE 1, 802623
+PALETTE 2, 4144959
+PALETTE 3, 3413542
+PALETTE 4, 723723
+PALETTE 0, 723723
+FOR i = 1 TO 4
+LINE (0, 50 * (i - 1))-(319, (50 * i) - 1), i, BF
+NEXT
+LOCATE 23, 7
+PRINT "INTERNATIONAL NON-BINARY DAY"
+LOCATE 24, 17
+PRINT "14TH JULY";
+SLEEP
